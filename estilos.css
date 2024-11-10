@@ -1,0 +1,234 @@
+/* ------Estilo global------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family:  "Red Hat Display", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    font-family:  "Red Hat Display", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family:  "Red Hat Display", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p, li {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+button {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: bold;
+}
+.color-blanco{
+    background-color: #fff;
+    border-bottom: #333E7A;
+    margin-right: 40px;
+
+}
+
+
+
+/*menu de naveacion */
+header {
+    border-bottom: 2px solid #333E7A;
+    margin-bottom: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+/* primera Seccion*/
+.Salus{
+    border-radius: 5px;
+    background-color: #E0D7FF;
+    color: #333E7A;
+    margin: 30px;
+    padding: 10px;
+
+}
+.imagen1{
+    border-radius: 20px;
+}
+.boton1{
+ 
+    margin-bottom: 10px;
+    background-color: #333E7A;
+    color: #fff;
+    border-color: #333E7A;
+}
+.boton1 :hover{
+   
+    color: #333E7A;
+    border-color: #333E7A;
+
+}
+
+
+    
+
+/*cartas */
+
+
+
+
+.card-body{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    margin: 20px;
+    border: 2px solid #877C7C;
+    border-radius: 6px;
+    
+
+}
+
+
+
+.card-body img
+{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+}
+.boton2{
+
+    background-color: #D9D9D9;
+    color: #333E7A;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s; 
+    
+}
+
+
+textarea{
+    resize: none;
+}
+    
+
+/* seccion 2*/
+.seccion-2  h3{
+    color: #333E7A;
+}
+
+.seccion-3{
+    background-color: #E0D7FF;
+    border-radius: 6px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.seccion-3 h3{
+    color: #333E7A;
+
+}
+
+.mapa{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+}
+.mapa iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0;
+}
+.btn-enviar{
+    background-color: #333E7A;
+    color: #fff;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+    border-radius: 9px;
+    border-color: #333E7A;
+    color: #333E7A;
+}
+ .container-footer{
+    border-top:2px solid #333E7A;
+ }
+
+
+ .seccion-5{
+    background-color:#E0D7FF ;
+    padding: 10px;
+    border-radius: 3px;
+    width:auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+ }
+
+.servicios{
+    width:100% ;
+}
+ #servicios{
+    background-color: #CAE0EE;
+ }
+
+ 
+ 
+
+ .imagen2{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+ }
+ 
+ 
